@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/card"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/MainCrTextView"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="@string/usd"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/exchange_rates"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/NameTextView"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:text="Name"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/RateTextView"
+        android:padding="10dp"
+        android:textSize="25sp"
+        android:text="Rates"/>
+
+
+
+</LinearLayout>

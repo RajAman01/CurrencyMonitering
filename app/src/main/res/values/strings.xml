@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CurrencyMonitering</string>
+    <string name="dinar">Dinar</string>
+    <string name="rupees">Rupees</string>
+    <string name="pond">Pond</string>
+    <string name="usd">USD</string>
+    <string name="exchange_rates">Exchange Rates</string>
+</resources>

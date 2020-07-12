@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main"
+    android:gravity="center"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    tools:context=".BaseActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="USD"
+        android:textSize="65dp"
+        android:textColor="#F3A406"/>
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/item1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FA063F"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="India" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/item2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FA063F"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="China" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/item3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FA063F"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="Japan" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/item4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FA063F"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="Australia" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/item5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FA063F"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="Dubai" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/item6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FA063F"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:text="South Africa" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/item7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FA063F"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="England" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/item8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FA063F"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="Turkey" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/item9"
+        android:layout_width="match_parent"
+        android:textColor="#FA063F"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Israel" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/item10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FA063F"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="Russia"/>
+    <Button
+        android:layout_marginTop="35sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Get Value"
+        android:textStyle="bold"
+        android:id="@+id/mainValueBtn"/>
+</LinearLayout>
